@@ -54,7 +54,6 @@ export const burger = {
   discount: {teacher:18 - (18 * 0.25), student:18 - (18 * 0.25), public:18 - (18 * 0.10)}
 }
 console.log(burger.discount["public"]);
-return burger.discount["public"];
 
 
 
@@ -75,7 +74,6 @@ Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
 console.log(reviews[5].feedback);
-return reviews[5].feedback;
 
 
 
@@ -87,7 +85,6 @@ Using the reviews array above do the following: (no function needed)
 */
 reviews.push({name: "Connie", rating: 4.5, feedback: "Nice"});
 console.log(reviews);
-return reviews;
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -98,7 +95,6 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
 
 reviews[reviews.length - 2].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
 console.log(reviews);
-return reviews;
 
 
 
